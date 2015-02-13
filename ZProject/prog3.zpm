@@ -1,0 +1,5 @@
+DEF A ;
+DEF B ;
+A = 1 ;
+FOR 5 B += A ; A *= 2 ; ENDFOR
+A += 1000 ;
