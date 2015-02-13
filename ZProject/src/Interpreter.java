@@ -9,7 +9,7 @@ import java.util.HashMap;
  * This is a interpreter to generate final results of different
  * variables by reading the Z+- program.
  * 
- * 
+ * All code is original 
  * @author MINGWEI ZHONG
  *
  */
@@ -358,7 +358,7 @@ public class Interpreter {
 			    String output = list.get(i).trim();
                 String c =  Character.toString(output.charAt(0));
                 //Checking only for with "="
-                //*********************************        
+                       
            if( (list.get(i).indexOf("FOR") == -1) && (list.get(i).indexOf("ENDFOR") == -1)) {     
                 if(  (value.containsKey(c)) && (list.get(i).indexOf("=") != -1) 
                 		&& (list.get(i).indexOf("*=") == -1)  
